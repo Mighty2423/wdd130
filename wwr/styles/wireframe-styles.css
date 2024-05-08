@@ -22,9 +22,19 @@
   --nav-hover-link-color: white;
   --nav-hover-background-color: #200BAA;
 }
+
 .logo-img{
 width : 108pX;
 }
 .first-menu{
 color: orange
+}
+.card{
+  width: 20px;
+  height: 20px;
+}
+.hero-banner{
+  width : 100%;
+  background-image:url(/images/circlelogo.jpeg);
+  height: 1500px;
 }
