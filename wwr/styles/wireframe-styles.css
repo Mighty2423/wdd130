@@ -36,6 +36,6 @@ color: orange
 .hero-banner{
   display: square;
   width : 100px;
-  background-image:url(/images/circlelogo.jpeg);
+  background-image:url(images\river1.jpg);
   height: 1500px;
 }
