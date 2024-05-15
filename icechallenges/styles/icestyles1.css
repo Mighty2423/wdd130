@@ -1,0 +1,32 @@
+body {
+        background-color:rgb(78, 172, 226);
+        text-align: center;
+}    
+.top{
+    color: white;
+}
+.top h1:hover {
+    color: black;
+}       
+.list {
+    width: 80%;
+    margin: 0 auto;
+    text-align: auto
+};
+blockquote{
+    color: white;
+    font-size: 20px;
+    margin: 0 auto;
+    max-width: 300px;
+}
+nav, footer {
+    text-align: center;
+    color: black;
+    padding: 10px;
+    font-size: 10px;
+}
+img {
+    width: 30%;
+    display: block;
+    margin: 0 auto;
+    }
