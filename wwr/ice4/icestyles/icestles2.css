@@ -13,7 +13,10 @@ h1 {
     width: 100%;
     height: auto;
 }
-
+.footer {
+    background-color: #333;
+    color: rgb(0, 0, 0);
+}
 .round-img {
     display: flex;
     justify-content: center;
@@ -22,6 +25,7 @@ h1 {
 
 .img {
     border-radius: 50%;
+    background-color: black;
     margin: 10px;
     width: 150px;
     height: 150px;
