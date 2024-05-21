@@ -2,25 +2,19 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
 }
-.container {
+/* .container {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 30px;
-  }
-h1 {
-    text-align: center;
-    color: #333;
-}
-h2{
-    text-align: right;
-    color: #333;
-}
+  } */
+
 
 .bg {
     width: 100%;
     height: auto;
+    display: block;
 }
 .footer {
     background-color: rgb(214, 0, 0);
@@ -30,14 +24,16 @@ h2{
     justify-content: center;
     border-color: rgb(113, 113, 123);
     padding: 20px;
-    background-color: rgb(69, 69, 69);
+    background-color: rgb(109, 105, 105);
 }
 
 .img {
-    border-radius: 90%;
-
-    background-color: red;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: rgb(64, 64, 64);
+    border-width: 15px;
     margin: 10px;
     width: 150px;
     height: 150px;
+    overflow: scroll;
 }
