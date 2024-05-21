@@ -1,11 +1,20 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    padding: 0;
 }
-
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+  }
 h1 {
     text-align: center;
+    color: #333;
+}
+h2{
+    text-align: right;
     color: #333;
 }
 
@@ -14,18 +23,20 @@ h1 {
     height: auto;
 }
 .footer {
-    background-color: #333;
-    color: rgb(0, 0, 0);
+    background-color: rgb(214, 0, 0);
 }
 .round-img {
     display: flex;
     justify-content: center;
+    border-color: rgb(113, 113, 123);
     padding: 20px;
+    background-color: rgb(69, 69, 69);
 }
 
 .img {
-    border-radius: 50%;
-    background-color: black;
+    border-radius: 90%;
+
+    background-color: red;
     margin: 10px;
     width: 150px;
     height: 150px;
