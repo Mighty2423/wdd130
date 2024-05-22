@@ -29,10 +29,6 @@ nav a {
     text-decoration: none;
 }
 
-#hero {
-
-}
-
 #hero-box {
     text-align: center;
 }
@@ -46,6 +42,9 @@ nav a {
 text-align: center;
 }
 
+.home-grid{
+    text-align: center
+}
 .home-title {
     font-size: 2em;
     margin: 0.5em 0;
@@ -62,14 +61,12 @@ text-align: center;
     text-align: center;
 }
 
-.home-grid {
-
-}
 
 .rivers-card, .camping-card, .rapids-card, .msg {
     width: 30%;
     height: auto;
     margin: 10px;
+    text-align: center;
 }
 
 
@@ -85,7 +82,7 @@ text-align: center;
 }
 
 .river {
-    max-width: 300px;
+    max-width: 50%;
     height: auto;
     margin: 20px 0;
 }
@@ -93,7 +90,7 @@ text-align: center;
 .msg {
     background-color: #fafafa;
     padding: 20px;
-    text-align: left;
+    text-align: center;
     width: 100%;
 }
 
@@ -112,6 +109,7 @@ text-align: center;
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
+    text-align: center;
 }
 
 footer {
