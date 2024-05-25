@@ -1,9 +1,18 @@
-/* General Styles */
+/* Add Google Fonts import at the top */
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&family=Raleway:wght@400;700&display=swap');
+
+/* Style the body with the chosen font and default settings */
 body {
-    font-family: Arial, sans-serif;
+    background-color: #fcfbfb;
+    font-family: 'Raleway', Arial, sans-serif;
+    font-size: 22px;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+}
+
+.logo {
+    max-width: 80px;
+    height: auto;
 }
 
 header {
@@ -13,128 +22,119 @@ header {
     text-align: left;
 }
 
-header a {
-    color: #000000;
-    text-decoration: none;
+
+/* Style the headlines */
+.home-title, h1, h2 {
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    font-size: 2em; /* 2 times the base font size */
+    margin: 10px 0; /* Added margin-top as per requirement */
+    text-align: center;
 }
 
-.logo {
-    max-width: 80px;
-    height: auto;
+/* Update font sizes for specific elements */
+.book, .join {
+
+    background-color: #d9c2a3;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.msg p {
+    font-size: 0.8em;
+}
+
+/* Adjust line height for better readability */
+.msg {
+    background-color: #6f7364;
+    line-height: 1.5em;
+}
+
+/* Reset margins and padding */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.h2 ,h4 {
+    margin: 0;
+    text-align: center;
+}
+
+/* Add padding to elements */
+#logo_link {
+    padding-top: 5px;
 }
 
 nav a {
-    color: #979797;
-    margin: 0 10px;
+    padding: 35px;
     text-decoration: none;
-}
-.home-grid , main section{
+    color: #fcfbfb;
     text-align: center;
 }
-#hero-box {
+.button-box {
+    padding: 15px;
     text-align: center;
 }
 
-#hero-img {
-    width: 100%;
-    height: auto;
-}
-
-#hero-msg {
-text-align: center;
-}
-
-.home-title{
-    font-size: 2em;
-    margin: 0.5em 0;
-    text-align: center;
-}
-.button-box .book {
-    background-color: #007BFF;
-    color: #fff;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-    text-align: center;
-    margin: auto;
-}
-
-
-.rivers-card, .camping-card, .rapids-card, .msg {
-    width: 30%;
-    height: auto;
-    margin: 0 auto;
-    text-align: center;
-    padding: 20px;
-}
-
-
-.card-img {
-    max-width: 100%;
-    height: auto;
+.book, .join {
+    padding: 15px 30px;
     text-align: center;
 }
 
 .icon {
-    width: 80px;
-    height: auto;
-    margin: 10px 0;
+    padding-top: 10px;
 }
 
-.river {
-    max-width: 50%;
-    height: auto;
-    margin: 20px 0;
-    text-align: left;
-}
-.back {
-    background-color: tan;}
 .msg {
-    background-color: #fafafa;
-    padding: 20px;
+    padding: 35px;
     text-align: center;
-    width: 100%;
-}
-
-.msg h2 {
-    margin-top: 0;
 }
 
 .msg p {
-    margin-bottom: 1em;
+    padding-bottom: 15px;
 }
 
-.msg .join {
-    text-align: center;
-    background-color: #28a745;
-    color: #fff;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
+footer {
+    padding: 25px 50px;
+    text-align: left;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+/* Add margins to elements */
+.home-title {
+    margin-top: 10px;
+}
+
+.book, .join {
+    margin-top: 50px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
     text-align: center;
 }
 
 footer {
-    background-color: #31673f;
-    color: #fff;
-    text-align: left;
-    padding: 1em 0;
+    margin-top: 200px;
+    background-color: #333;
 }
 
-footer p {
-    margin: 5px 0;
+/* Add borders and border-radius */
+.book, .join {
+    border-radius: 5px;
 }
 
-footer a {
-    color: #fff;
-    text-decoration: none;
+.card-img {
+    border: 10px solid #d9c2a3; /* Use your chosen color */
 }
 
-footer .social a {
-    margin: 0 5px;
-}
-
-footer .social img {
-    width: 30px;
-    height: auto;
+main section img {
+    box-sizing: border-box;
 }
