@@ -15,6 +15,7 @@ body {
     height: auto;
 }
 
+
 header {
     background-color: #333;
     color: #fff;
@@ -42,7 +43,6 @@ header {
     margin-top: 50px;
     border-radius: 5px;
 }
-
 .msg p {
     font-size: 0.8em;
 }
@@ -119,6 +119,9 @@ footer .social img {
 .rivers-card, .camping-card, .rapids-card {
     margin: 200px 0;
     text-align: center;
+}
+.river img{
+    text-align: left;
 }
 
 footer {
