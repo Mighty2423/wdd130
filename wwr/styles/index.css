@@ -23,13 +23,18 @@ header {
     text-align: left;
 }
 
-
+#hero-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the entire container */
+}
 /* Style the headlines */
 .home-title, h1, h2 {
     font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
     font-size: 2em; /* 2 times the base font size */
     margin: 10px 0; /* Added margin-top as per requirement */
     text-align: center;
+    display: block;
 }
 
 /* Update font sizes for specific elements */
