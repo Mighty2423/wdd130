@@ -126,7 +126,7 @@ footer .social img {
 
 footer {
     margin-top: 200px;
-    background-color: #333;
+    background-color: #6f7364;
 }
 
 /* Add borders and border-radius */
@@ -136,6 +136,7 @@ footer {
 
 .card-img {
     border: 10px solid #d9c2a3; /* Use your chosen color */
+   
 }
 
 main section img {
