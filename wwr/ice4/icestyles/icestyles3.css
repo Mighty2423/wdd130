@@ -14,7 +14,6 @@ html {
 
 .left-side {
     background-color: #ffffff;
-    /* Gold */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,7 +22,6 @@ html {
 
 .right-side {
     background-color: #525353;
-    /* Dodger Blue */
     display: flex;
     flex-direction: column;
     justify-content: center;
