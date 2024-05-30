@@ -12,6 +12,7 @@ html {
 .container {
     display: grid;
     grid-template-columns: auto auto;
+    grid-template-rows: 100vh;
     height: 100vh;
 }
 
@@ -21,12 +22,17 @@ html {
     align-items: center;
     text-align: center;
 }
-.across{
-    justify-content: center;
-    align-items: left;
-    text-align: center;
 
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 2em;
+    margin: 0;
 }
+
 .right-side {
     background-color: #525353;
     justify-content: center;
@@ -41,11 +47,12 @@ html {
 }
 
 .main-text {
+    grid-area: 3;
     font-size: 4em;
     margin: 0;
     text-align: center;
     color: rgb(0, 0, 0);
-}
+    justify-self: center;}
 
 .colored-text {
     font-size: 2em;
