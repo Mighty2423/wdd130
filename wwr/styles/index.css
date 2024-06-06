@@ -83,8 +83,12 @@ header {
     box-shadow: 5px 5px 10px #6f7364;
 }
 .card-img{
-    width: 600px;
-    height: auto;
+    width: 150%;
+}
+.home-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr);
 }
 .mountains {
     width: 100%;
