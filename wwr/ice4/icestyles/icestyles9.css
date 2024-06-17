@@ -7,7 +7,8 @@ background-color: black;
     background-color: white;
 }
 .headerimage{
-    width: 108%8;
+    width: 10px;
+    height: auto;
 }
 .awesomearticle{
     padding: 10px;
@@ -17,7 +18,7 @@ footer{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-row: 1fr;
-    background-color: black;
+    background-color: rgb(0, 42, 255);
     color: white;
     text-align: center;
     padding: 10px;
