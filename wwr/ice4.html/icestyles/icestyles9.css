@@ -1,0 +1,24 @@
+.body{
+background-color: black;
+}
+.card{
+    width: 250px;
+    margin: 0 auto; 
+    background-color: white;
+}
+.headerimage{
+    width: 108%8;
+}
+.awesomearticle{
+    padding: 10px;
+    text-align: center;
+}
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row: 1fr;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
