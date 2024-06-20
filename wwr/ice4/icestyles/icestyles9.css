@@ -1,5 +1,6 @@
 .body{
 background-color: black;
+display: grid;
 }
 .card{
     width: 250px;
