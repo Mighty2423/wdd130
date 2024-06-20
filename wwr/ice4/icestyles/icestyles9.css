@@ -1,25 +1,76 @@
-.body{
-background-color: black;
-display: grid;
+body {
+    background-color: black;
+    display: grid;
 }
-.card{
-    width: 250px;
-    margin: 0 auto; 
-    background-color: white;
+
+.card {
+    grid-row: 1;
+    width: 1000px;
+    height: auto;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    text-align: center;
 }
-.headerimage{
-    width: 10px;
+
+.headerimage {
+    width: 500px;
     height: auto;
 }
-.awesomearticle{
-    padding: 10px;
+.h1 {
     text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    color: black;
+    padding: 20px;
 }
-footer{
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-row: 1fr;
-    background-color: rgb(0, 42, 255);
-    color: white;
-    text-align: center;
+h2 {
+    font-size: 30px;
+    font-family: Arial, sans-serif;
+    color: black;
+    padding: 20px;
+}
+
+.awesomearticle {
     padding: 10px;
+    text-align: center;
+    color: black;
+}
+
+footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(0, 42, 255);
+        color: white;
+        padding: 10px;
+}
+.footer-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+    align-items: center;
+    justify-items: center;
+    width: 300px; /* Adjust width as needed */
+    height: 300px; /* Adjust height as needed */
+}
+p {
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    color: white;
+    padding: 20px;
+}
+.p1 {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+.p2 {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+.p3 {
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
 }
