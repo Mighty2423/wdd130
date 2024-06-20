@@ -226,6 +226,51 @@ main section img {
     box-sizing: border-box;
 }
 
+.section1 {
+    background-color: #d9c2a3;
+    padding: 50px;
+    text-align: left;
+    grid-column: 1/11;
+    grid-row: 1/5;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.section2 {
+    background-color: #a3cbd9;
+    padding: 50px;
+    text-align: left;
+    grid-column: 1/11;
+    grid-row: 5/9;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.section3 {
+    background-color: #ff9100;
+    padding: 50px;
+    text-align: left;
+    grid-column: 1/11;
+    grid-row: 9/13;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.section4 {
+    padding: 50px;
+    text-align: left;
+    grid-column: 1/11;
+    grid-row: 13/17;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.section5 {
+    background-color: #6f7364;
+    padding: 50px;
+    text-align: left;
+    grid-column: 1/11;
+    grid-row: 17/21;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.titles {
+    font-size: 2em;
+    margin: 10px 0;
+    text-align: left;
+    display: block;
+}
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
