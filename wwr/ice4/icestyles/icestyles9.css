@@ -5,7 +5,7 @@ body {
 
 .card {
     grid-row: 1;
-    width: 1000px;
+    width: 400px;
     height: auto;
     margin: 0 auto;
     background-color: rgb(255, 255, 255);
@@ -15,27 +15,32 @@ body {
     overflow: hidden;}
 
 .headerimage {
-    width: 500px;
+    width: 100%;
     height: auto;
+    text-align: center;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+
 }
 .h1 {
     text-align: center;
-    font-size: 40px;
+    font-size: 10px;
     font-weight: bold;
-    font-family: Arial, sans-serif;
-    color: black;
-    padding: 20px;
+    font-family: Arial;
+    color: lightblue;
+    padding: 10px;
 }
 h2 {
-    font-size: 30px;
+    font-size: 50px;
     font-family: Arial, sans-serif;
-    color: black;
-    padding: 20px;
+    color: rgb(0, 0, 0);
+    padding: 5px;
 }
 
 .awesomearticle {
+    grid-row: 2;
     padding: 10px;
     text-align: center;
     color: black;
@@ -48,6 +53,11 @@ footer {
         background-color: rgb(0, 42, 255);
         color: white;
         padding: 10px;
+        border-top: 15px;
+        margin: 0 auto;
+        box-sizing: border-box;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
         border-bottom-left-radius: 15px;
         border-bottom-right-radius: 15px;
 }
@@ -68,14 +78,12 @@ p {
     padding: 20px;
 }
 .p1 {
-    grid-column: 2 / 3;
-    grid-row: 1 / 2;
+    grid-column: 1 / 2;
 }
 .p2 {
     grid-column: 2 / 3;
-    grid-row: 2 / 3;
+
 }
 .p3 {
-    grid-column: 2 / 3;
-    grid-row: 3 / 4;
+    grid-column: 3 / 4;
 }
