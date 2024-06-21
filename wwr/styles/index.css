@@ -198,7 +198,7 @@ footer .social img {
     width: auto;
     background-color: tan;
     color: tan;
-    padding: auto;
+    padding: 20px;
     grid-column: 1/11;
     grid-row: 4/9;
 }
