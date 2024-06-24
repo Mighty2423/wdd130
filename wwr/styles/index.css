@@ -277,6 +277,9 @@ main section img {
     text-align: center;
     display: block;
 }
+
+
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
