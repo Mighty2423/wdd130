@@ -1,6 +1,7 @@
 body {
     /* Center the form on the page */
     text-align: center;
+    background-color: aquamarine;
   }
 
 
@@ -22,7 +23,7 @@ body {
     display: inline-block;
     /* Form outline */
     padding: 1em;
-    border: 1px solid #ccc;
+    border: 1px solid #0800f8;
     border-radius: 1em;
   }
   
